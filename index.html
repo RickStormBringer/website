@@ -18,6 +18,7 @@
         <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/custom.css?v=1" rel="stylesheet" type="text/css" media="all" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <!-- Global Site Tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17656782-2"></script>
         <script>
@@ -61,20 +62,35 @@ gtag('config', 'UA-17656782-2');
                             <div class="bar__module">
                                 <ul class="menu-horizontal text-left">
                                     <li>
-                                        <a href="#about" class="inner-link">
+                                        <a href="#about" class="inner-link" data-item="menu_about">
                                             关于
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#features" class="inner-link">
+                                        <a href="#features" class="inner-link" data-item="menu_future">
                                             未来
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="whcwhitepaper.pdf" target="_blank" class="inner-link">
+                                        <a href="whcwhitepaper.pdf" target="_blank" class="inner-link" data-item="menu_white_book">
                                             白皮书
                                         </a>
+                                    </li>
+                                    <li id="chooseLanguage" class="choose-language">
+                                        <a href="#language" class="inner-link">
+                                            简体中文
+                                        </a>
+                                        <div class="language-options" id="languageOptions">
+                                            <ul>
+                                                <li class="js-option" data-lan="zh">
+                                                    <!--<img src="https://dhs24wowpbjz4.cloudfront.net/dex_assets/chinese.png">-->
+                                                    <span>简体中文</span></li>
+                                                <li class="js-option" data-lan="us">
+                                                    <!--<img src="https://dhs24wowpbjz4.cloudfront.net/dex_assets/english.png">-->
+                                                    <span>English</span></li>
+                                            </ul>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -89,7 +105,7 @@ gtag('config', 'UA-17656782-2');
                     <div class="row">
                         <div class="col-sm-12 col-md-6">
                             <img alt="Bitcoin Cash" src="img/logo_wormhole_dark.png">
-                            <p class="lead">
+                            <p class="lead" data-item="lead">
                                 一种基于Bitcoin Cash的智能合约实现方案
                             </p>
                         </div>
@@ -107,35 +123,35 @@ gtag('config', 'UA-17656782-2');
                     <div class="row text-center">
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-bolt fa-fw fa-2x"></i></p>
-                            <p><strong>高速</strong></p>
-                            <p>快速确认</p>
+                            <p><strong data-item="feature_1">高速</strong></p>
+                            <p data-item="feature_1_1">快速确认</p>
                         </div>
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-tasks fa-fw fa-2x"></i></p>
-                            <p><strong>智能合约</strong></p>
-                            <p>高性能的图灵完备语言支持</p>
+                            <p><strong data-item="feature_2">智能合约</strong></p>
+                            <p data-item="feature_2_1">高性能的图灵完备语言支持</p>
                         </div>
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-arrow-alt-down fa-fw fa-2x"></i></p>
-                            <p><strong>低手续费</strong></p>
-                            <p>全世界无缝流通</p>
+                            <p><strong data-item="feature_3">低手续费</strong></p>
+                            <p data-item="feature_3_1">全世界无缝流通</p>
                         </div>
                     </div>
                     <div class="row text-center">
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-rss fa-fw fa-2x"></i></p>
-                            <p><strong>可扩展</strong></p>
-                            <p>不用修改原有共识即可扩展</p>
+                            <p><strong data-item="feature_4">可扩展</strong></p>
+                            <p data-item="feature_4_1">不用修改原有共识即可扩展</p>
                         </div>
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-cubes fa-fw fa-2x"></i></p>
-                            <p><strong>去中心化</strong></p>
-                            <p>基于Bitcoin Cash的去中心化实现</p>
+                            <p><strong data-item="feature_5">去中心化</strong></p>
+                            <p data-item="feature_5_1">基于Bitcoin Cash的去中心化实现</p>
                         </div>
                         <div class="col-sm-4 col-md-4">
                             <p><i class="fa fa-lock fa-fw fa-2x"></i></p>
-                            <p><strong>安全</strong></p>
-                            <p>二层安全模型</p>
+                            <p><strong data-item="feature_6">安全</strong></p>
+                            <p data-item="feature_6_1">二层安全模型</p>
                         </div>
                     </div>
                 </div>
@@ -145,12 +161,12 @@ gtag('config', 'UA-17656782-2');
                 <div class="container">
                     <div class="row text-center">
                         <div class='col-sm-12'>
-                            <h3 class="banner">基于Bitcoin Cash的智能合约实现方案</h3>
+                            <h3 class="banner" data-item="title_1">基于Bitcoin Cash的智能合约实现方案</h3>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
-                            <p>我们一直在探索一种不改变共识的情况实现在BCH上实现智能合约的方案，我们关注到了[OmniLayer](https://www.omnilayer.org/)方案，他是一种利用op_return操作码实现发token的方案。Wormhole Cash 是基于OmniLayer协议在BCH上实现发Token功能的一种解决方案。</p>
+                            <p data-item="title_1_1">我们一直在探索一种不改变共识的情况实现在BCH上实现智能合约的方案，我们关注到了[OmniLayer](https://www.omnilayer.org/)方案，他是一种利用op_return操作码实现发token的方案。Wormhole Cash 是基于OmniLayer协议在BCH上实现发Token功能的一种解决方案。</p>
 
                         </div>
                     </div>
@@ -161,15 +177,15 @@ gtag('config', 'UA-17656782-2');
                 <div class="container">
                     <div class="row text-center">
                       <div class='col-sm-12'>
-                        <h3>未来发展</h3>
+                        <h3 data-item="title_2">未来发展</h3>
                       </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
-                            <p><strong>无许可的智能合约</strong>无需许可的智能合约。Omni Layer本身不是一种无许可创新的机制。任何新型的合约类型，都必须被合并到程序代码之中才能够被识别。我们会在散逸阶段，实现无许可的智能合约平台。也就是说，在遵守维护协议安全的必要规则后，任何开发者都可以发布智能合约到网络中运行。</p>
-                            <p><strong>去中心化交易协议</strong>底层协议支持的去中心化交易所，任何人都可以创建自己的交易所</p>
-                            <p><strong>ERC721</strong>Non-Fungible Tokens:不可互换的Token, 英文简写为"NFT"，简单理解为每个Token都是独一无二的。也就是说ERC721的每个Token都拥有独立唯一的tokenId编号。 </p>
-                            <p><strong>智能合约</strong>新一代的智能合约虚拟机。Solidity作为智能合约这一古老概念被真正实现的语言，受到了计算机专家的广泛审视。近些年也有更好的想法被提出来。我们将考虑开发一些新型编程语言的虚拟机，让最有效率、开发者基础最广泛的计算机语言被用于构建DApps</p>
+                            <p><strong data-item="title_2_1">无许可的智能合约</strong><span data-item="title_2_2">无需许可的智能合约。Omni Layer本身不是一种无许可创新的机制。任何新型的合约类型，都必须被合并到程序代码之中才能够被识别。我们会在散逸阶段，实现无许可的智能合约平台。也就是说，在遵守维护协议安全的必要规则后，任何开发者都可以发布智能合约到网络中运行。</span></p>
+                            <p><strong data-item="title_2_3">去中心化交易协议</strong><span data-item="title_2_4">底层协议支持的去中心化交易所，任何人都可以创建自己的交易所</span></p>
+                            <p><strong data-item="title_2_5">ERC721</strong><span data-item="title_2_6">Non-Fungible Tokens:不可互换的Token, 英文简写为"NFT"，简单理解为每个Token都是独一无二的。也就是说ERC721的每个Token都拥有独立唯一的tokenId编号。 </span></p>
+                            <p><strong data-item="title_2_7">智能合约</strong><span data-item="title_2_8">新一代的智能合约虚拟机。Solidity作为智能合约这一古老概念被真正实现的语言，受到了计算机专家的广泛审视。近些年也有更好的想法被提出来。我们将考虑开发一些新型编程语言的虚拟机，让最有效率、开发者基础最广泛的计算机语言被用于构建DApps</span></p>
 
                         </div>
                     </div>
@@ -214,5 +230,6 @@ gtag('config', 'UA-17656782-2');
         <script src="js/fontawesome.js"></script>
         <script src="js/packs/solid.js"></script>
         <script src="js/ticker.js?v=2"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>
