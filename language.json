@@ -1,85 +1,110 @@
 {
   "menu_about": {
     "zh": "关于",
-    "us": ""
+    "us": "about us"
   },
   "menu_future": {
     "zh": "未来",
-    "us": ""
+    "us": "future"
   },
   "menu_white_book": {
-    "zh": "白皮书"
+    "zh": "白皮书",
+    "us": "white book"
   },
   "lead": {
-    "zh": "一种基于Bitcoin Cash的智能合约实现方案"
+    "zh": "一种基于Bitcoin Cash的智能合约实现方案",
+    "us": "Wormhole protocol —— BCH smart contract"
   },
   "feature_1": {
-    "zh": "高速"
+    "zh": "高速",
+    "us": "High-speed"
   },
   "feature_1_1": {
-    "zh": "快速确认"
+    "zh": "快速确认",
+    "us": "Swift confirmation"
   },
   "feature_2": {
-    "zh": "智能合约"
+    "zh": "智能合约",
+    "us": "Smart contract"
   },
   "feature_2_1": {
-    "zh": "高性能的图灵完备语言支持"
+    "zh": "高性能的图灵完备语言支持",
+    "us": "High-performance turing completeness programing language support"
   },
   "feature_3": {
-    "zh": "低手续费"
+    "zh": "低手续费",
+    "us": "Low fees"
   },
   "feature_3_1": {
-    "zh": "全世界无缝流通"
+    "zh": "全世界无缝流通",
+    "us": "Global seamless circulation"
   },
   "feature_4": {
-    "zh": "可扩展"
+    "zh": "可扩展",
+    "us": "Extension"
   },
   "feature_4_1": {
-    "zh": "不用修改原有共识即可扩展"
+    "zh": "不用修改原有共识即可扩展",
+    "us": "Extension can be realized without changing the consensus rules"
   },
   "feature_5": {
-    "zh": "去中心化"
+    "zh": "去中心化",
+    "us": "Decentralization"
   },
   "feature_5_1": {
-    "zh": "基于Bitcoin Cash的去中心化实现"
+    "zh": "基于Bitcoin Cash的去中心化实现",
+    "us": "Decentralization —— based on the BCH"
   },
   "feature_6": {
-    "zh": "安全"
+    "zh": "安全",
+    "us": "Security"
   },
   "feature_6_1": {
-    "zh": "二层安全模型"
+    "zh": "二层安全模型",
+    "us": "Two-tier security model"
   },
   "title_1": {
-    "zh": "基于Bitcoin Cash的智能合约实现方案"
+    "zh": "基于Bitcoin Cash的智能合约实现方案",
+    "us": "Wormhole protocol —— BCH smart contract"
   },
   "title_1_1": {
-    "zh": "我们一直在探索一种不改变共识的情况实现在BCH上实现智能合约的方案，我们关注到了[OmniLayer](https://www.omnilayer.org/)方案，他是一种利用op_return操作码实现发token的方案。Wormhole Cash 是基于OmniLayer协议在BCH上实现发Token功能的一种解决方案。"
+    "zh": "我们一直在探索一种不改变共识的情况实现在BCH上实现智能合约的方案，我们关注到了[OmniLayer](https://www.omnilayer.org/)方案，他是一种利用op_return操作码实现发token的方案。Wormhole Cash 是基于OmniLayer协议在BCH上实现发Token功能的一种解决方案。",
+    "us": "We have been trying to explore ways to implement the smart contracts on Bitcoin Cash Blockchain without changing the consensus rules. After tremendous research effort, we have been attracted by a protocol which can issue token through the OP_RETURN opcode: the Omni Layer (https://www.omnilayer.org/). Based on the Omni Layer protocol, the Wormhole Cash makes it possible to issue the token on BCH."
   },
   "title_2": {
-    "zh": "未来发展"
+    "zh": "未来发展",
+    "us": "Future Development"
   },
   "title_2_1": {
-    "zh": "无许可的智能合约"
+    "zh": "无许可的智能合约",
+    "us": "Permissionless smart contrac "
   },
   "title_2_2": {
-    "zh": "无需许可的智能合约。Omni Layer本身不是一种无许可创新的机制。任何新型的合约类型，都必须被合并到程序代码之中才能够被识别。我们会在散逸阶段，实现无许可的智能合约平台。也就是说，在遵守维护协议安全的必要规则后，任何开发者都可以发布智能合约到网络中运行。"
+    "zh": "无需许可的智能合约。Omni Layer本身不是一种无许可创新的机制。任何新型的合约类型，都必须被合并到程序代码之中才能够被识别。我们会在散逸阶段，实现无许可的智能合约平台。也就是说，在遵守维护协议安全的必要规则后，任何开发者都可以发布智能合约到网络中运行。",
+    "us": "Permissionless smart contract: The Omni Layer is not a mechanism for permissionless innovation. And only by integrating into the program code can the new type of contracts be recognized. We will create an permissionless smart contract platform in the Exophere phase. In other words, any developer can deploy a smart contract into the network only if they comply with the corresponding rules for maintaining protocol security."
   },
   "title_2_3": {
-    "zh": "去中心化交易协议"
+    "zh": "去中心化交易协议",
+    "us": "Decentralized exchange protocol "
   },
   "title_2_4": {
-    "zh": "底层协议支持的去中心化交易所，任何人都可以创建自己的交易所"
+    "zh": "底层协议支持的去中心化交易所，任何人都可以创建自己的交易所",
+    "us": "Supported by the underlying protocol, anyone can create your own decentralized bourse."
   },
   "title_2_5": {
-    "zh": "ERC721"
+    "zh": "ERC721",
+    "us": "ERC721 "
   },
   "title_2_6": {
-    "zh": "Non-Fungible Tokens:不可互换的Token, 英文简写为\"NFT\"，简单理解为每个Token都是独一无二的。也就是说ERC721的每个Token都拥有独立唯一的tokenId编号。"
+    "zh": "Non-Fungible Tokens:不可互换的Token, 英文简写为\"NFT\"，简单理解为每个Token都是独一无二的。也就是说ERC721的每个Token都拥有独立唯一的tokenId编号。",
+    "us": "NFT is the shortened form of Non-Fungible Tokens and it can be understood that every Token is unique. In other words, every  Token in ERC721 has its own unique tokenld number."
   },
   "title_2_7": {
-    "zh": "智能合约"
+    "zh": "智能合约",
+    "us": "A new generation of smart contract virtual machines "
   },
   "title_2_8": {
-    "zh": "新一代的智能合约虚拟机。Solidity作为智能合约这一古老概念被真正实现的语言，受到了计算机专家的广泛审视。近些年也有更好的想法被提出来。我们将考虑开发一些新型编程语言的虚拟机，让最有效率、开发者基础最广泛的计算机语言被用于构建DApps"
+    "zh": "新一代的智能合约虚拟机。Solidity作为智能合约这一古老概念被真正实现的语言，受到了计算机专家的广泛审视。近些年也有更好的想法被提出来。我们将考虑开发一些新型编程语言的虚拟机，让最有效率、开发者基础最广泛的计算机语言被用于构建DApps",
+    "us": "As a programming language that bring the old term of smart contracts into practice, Solidity has been reviewed by most computer scientists. We will probably develop some virtual machines using programming languages to make the most efficient and developers-friendly computer languages available for building DApps."
   }
 }
