@@ -28,8 +28,8 @@ $(document).ready(function () {
         $('#chooseLanguage a').text(text)
         $('#languageOptions').hide()
         var language = $(this).data('lan')
-        $.get('../language.json', function (data) {
-            // console.log(data)
+        $.get('language.json', function (data) {
+             console.log(data)
             if (window.localStorage){
                 console.log('将语言包缓存在本地')
                 var storage = window.localStorage
