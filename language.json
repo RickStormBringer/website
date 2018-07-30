@@ -21,7 +21,7 @@
   },
   "feature_1_1": {
     "zh": "快速确认",
-    "us": "Swift confirmation"
+    "us": "Faster confirmation"
   },
   "feature_2": {
     "zh": "智能合约",
@@ -29,7 +29,7 @@
   },
   "feature_2_1": {
     "zh": "高性能的图灵完备语言支持",
-    "us": "High-performance turing completeness programing language support"
+    "us": "Supported by high-performance turing-complete programing language"
   },
   "feature_3": {
     "zh": "低手续费",
@@ -37,7 +37,7 @@
   },
   "feature_3_1": {
     "zh": "全世界无缝流通",
-    "us": "Global seamless circulation"
+    "us": "Global frictionless market"
   },
   "feature_4": {
     "zh": "可扩展",
@@ -45,7 +45,7 @@
   },
   "feature_4_1": {
     "zh": "不用修改原有共识即可扩展",
-    "us": "Extension can be realized without changing the consensus rules"
+    "us": "Extension without changing the consensus protocol"
   },
   "feature_5": {
     "zh": "去中心化",
@@ -53,7 +53,7 @@
   },
   "feature_5_1": {
     "zh": "基于Bitcoin Cash的去中心化实现",
-    "us": "Decentralization —— based on the BCH"
+    "us": "Decentralization-based on BCH"
   },
   "feature_6": {
     "zh": "安全",
