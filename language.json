@@ -77,11 +77,11 @@
   },
   "title_2_1": {
     "zh": "无许可的智能合约",
-    "us": "Permissionless smart contrac "
+    "us": "Permissionless smart contract:"
   },
   "title_2_2": {
     "zh": "无需许可的智能合约。Omni Layer本身不是一种无许可创新的机制。任何新型的合约类型，都必须被合并到程序代码之中才能够被识别。我们会在散逸阶段，实现无许可的智能合约平台。也就是说，在遵守维护协议安全的必要规则后，任何开发者都可以发布智能合约到网络中运行。",
-    "us": "Permissionless smart contract: The Omni Layer is not a mechanism for permissionless innovation. And only by integrating into the program code can the new type of contracts be recognized. We will create an permissionless smart contract platform in the Exophere phase. In other words, any developer can deploy a smart contract into the network only if they comply with the corresponding rules for maintaining protocol security."
+    "us": " The Omni Layer is not a mechanism for permissionless innovation. And only by integrating into the program code can the new type of contracts be recognized. We will create an permissionless smart contract platform in the Exophere phase. In other words, any developer can deploy a smart contract into the network only if they comply with the corresponding rules for maintaining protocol security."
   },
   "title_2_3": {
     "zh": "去中心化交易协议",
