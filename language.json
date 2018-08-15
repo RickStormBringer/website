@@ -11,6 +11,10 @@
     "zh": "白皮书",
     "us": "white paper"
   },
+  "menu_news": {
+    "zh": "Blog",
+    "us": "Blog"
+  },
   "lead": {
     "zh": "一种基于Bitcoin Cash的智能合约实现方案",
     "us": "Wormhole — BCH smart contract"
