@@ -6,6 +6,7 @@ $(document).ready(function () {
         if (storage.json && storage.json.indexOf('{"') > -1){
             var data = JSON.parse(storage.json)
             var language = storage.language || 'zh'
+            language == 'zh' ? $('#news_actions').attr("href", "https://www.jianshu.com/c/c130aec4a7d1") : $('#news_actions').attr("href", "https://medium.com/@wormholecash") //切换新闻地址
             $('#chooseLanguage a').text(storage.text)
             $("*[data-item]").each(function () {
                 var key = $(this).data('item')
@@ -17,17 +18,17 @@ $(document).ready(function () {
     }
     
     
-    $('#chooseLanguage').hover(function () { //鼠标移进显示
+    $('#chooseLanguage').click(function () { //鼠标移进显示
         $('#languageOptions').show()
     })
-    $('#chooseLanguage').mouseleave(function () { //移出隐藏
-        $('#languageOptions').hide()
-    })
-    $('.js-option').click(function () { //点击语言
+  
+    $('.js-option').click(function (e) { //点击语言.
         var text = $(this).text()
+        e.stopPropagation() //阻止冒泡
         $('#chooseLanguage a').text(text)
         $('#languageOptions').hide()
         var language = $(this).data('lan')
+        language == 'zh' ? $('#news_actions').attr("href", "https://www.jianshu.com/c/c130aec4a7d1") : $('#news_actions').attr("href", "https://medium.com/@wormholecash") //切换新闻地址
         $.get('language.json', function (data) {
              console.log(data)
             if (window.localStorage){
