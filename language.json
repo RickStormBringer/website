@@ -1,7 +1,7 @@
 {
   "menu_about": {
     "zh": "关于",
-    "us": "about us"
+    "us": "about"
   },
   "menu_future": {
     "zh": "未来",
@@ -45,11 +45,11 @@
   },
   "feature_4": {
     "zh": "可扩展",
-    "us": "Extension"
+    "us": "Scalability"
   },
   "feature_4_1": {
     "zh": "不用修改原有共识即可扩展",
-    "us": "Extension without changing the consensus protocol"
+    "us": "Scalability without changing the consensus protocol"
   },
   "feature_5": {
     "zh": "去中心化",
@@ -65,7 +65,7 @@
   },
   "feature_6_1": {
     "zh": "二层安全模型",
-    "us": "Two-tier security model"
+    "us": "Two-tier security approach"
   },
   "title_1": {
     "zh": "基于Bitcoin Cash的智能合约实现方案",
@@ -73,7 +73,7 @@
   },
   "title_1_1": {
     "zh": "我们一直在探索一种不改变共识的情况实现在BCH上实现智能合约的方案，我们关注到了[OmniLayer](https://www.omnilayer.org/)方案，他是一种利用op_return操作码实现发token的方案。Wormhole Cash 是基于OmniLayer协议在BCH上实现发Token功能的一种解决方案。",
-    "us": "We have been trying to explore ways to implement the smart contracts on Bitcoin Cash Blockchain without changing the consensus rules. After tremendous research effort, we have been attracted by a protocol which can issue token through the OP_RETURN opcode: the Omni Layer (https://www.omnilayer.org/). Based on the Omni Layer protocol, the Wormhole Cash makes it possible to issue the token on BCH."
+    "us": "We have been trying to explore different ways to implement smart contracts on Bitcoin Cash without changing the consensus rules. After tremendous research effort, we have discovered a protocol which can issue tokens through the OP_RETURN opcode: the Omni Layer (https://www.omnilayer.org/). Based on the Omni Layer protocol,  Wormhole Cash makes it possible to issue tokens on BCH."
   },
   "title_2": {
     "zh": "未来发展",
@@ -85,7 +85,7 @@
   },
   "title_2_2": {
     "zh": "无需许可的智能合约。Omni Layer本身不是一种无许可创新的机制。任何新型的合约类型，都必须被合并到程序代码之中才能够被识别。我们会在散逸阶段，实现无许可的智能合约平台。也就是说，在遵守维护协议安全的必要规则后，任何开发者都可以发布智能合约到网络中运行。",
-    "us": " The Omni Layer is not a mechanism for permissionless innovation. And only by integrating into the program code can the new type of contracts be recognized. We will create an permissionless smart contract platform in the Exophere phase. In other words, any developer can deploy a smart contract into the network only if they comply with the corresponding rules for maintaining protocol security."
+    "us": " The Omni Layer is not a mechanism for permissionless innovation. Only through integration into the program code can new contracts be recognized. We will create a permissionless smart contract platform in the Exophere phase. That is to say, any developer can deploy a smart contract into the network once they comply with the corresponding rules for maintaining protocol security."
   },
   "title_2_3": {
     "zh": "去中心化交易协议",
@@ -93,7 +93,7 @@
   },
   "title_2_4": {
     "zh": "底层协议支持的去中心化交易所，任何人都可以创建自己的交易所",
-    "us": "Supported by the underlying protocol, anyone can create your own decentralized bourse."
+    "us": "Anyone can create their own decentralized exchange supported by the underlying protocol."
   },
   "title_2_5": {
     "zh": "ERC721",
@@ -101,7 +101,7 @@
   },
   "title_2_6": {
     "zh": "Non-Fungible Tokens:不可互换的Token, 英文简写为\"NFT\"，简单理解为每个Token都是独一无二的。也就是说ERC721的每个Token都拥有独立唯一的tokenId编号。",
-    "us": "NFT is the shortened form of Non-Fungible Tokens and it can be understood that every Token is unique. In other words, every  Token in ERC721 has its own unique tokenld number."
+    "us": "Non-Fungible Tokens (NFT) is the term given to the unique nature of the tokens. That is to say, every  token in ERC721 has its own unique token ID, and can not be replaced or refunded."
   },
   "title_2_7": {
     "zh": "智能合约",
@@ -109,6 +109,6 @@
   },
   "title_2_8": {
     "zh": "新一代的智能合约虚拟机。Solidity作为智能合约这一古老概念被真正实现的语言，受到了计算机专家的广泛审视。近些年也有更好的想法被提出来。我们将考虑开发一些新型编程语言的虚拟机，让最有效率、开发者基础最广泛的计算机语言被用于构建DApps",
-    "us": "As a programming language that bring the old term of smart contracts into practice, Solidity has been reviewed by most computer scientists. We will probably develop some virtual machines using programming languages to make the most efficient and developers-friendly computer languages available for building DApps."
+    "us": "As a contract-oriented language that can be applied to a variety of different blockchain platforms, Solidity has got scrutiny from computer experts in recent years. We will develop new virtual machines using programming languages to make the most efficient and developers-friendly computer languages available for building DApps."
   }
 }
