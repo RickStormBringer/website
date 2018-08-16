@@ -20,10 +20,11 @@ $(document).ready(function () {
     if (window.localStorage){
         var storage = window.localStorage
         var language = storage.language || 'zh'
+        var text = storage.text || '简体中文'
         // change blog address
-        $('#chooseLanguage a').text(storage.text)
+        $('#chooseLanguage a').text(text)
         language == 'zh' ? $('#news_actions').attr("href", "https://www.jianshu.com/c/c130aec4a7d1") : $('#news_actions').attr("href", "https://medium.com/@wormholecash")
-        getData(language, storage.text)
+        getData(language, text)
     }
     
     
