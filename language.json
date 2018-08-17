@@ -81,7 +81,7 @@
   },
   "title_2_1": {
     "zh": "无许可的智能合约",
-    "us": "Permissionless smart contract:"
+    "us": "Permissionless smart contract"
   },
   "title_2_2": {
     "zh": "Omni Layer本身不是一种无许可创新的机制。任何新型的合约类型，都必须被合并到程序代码之中才能够被识别。我们会在散逸阶段，实现无许可的智能合约平台。也就是说，在遵守维护协议安全的必要规则后，任何开发者都可以发布智能合约到网络中运行。",
