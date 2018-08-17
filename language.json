@@ -49,7 +49,7 @@
   },
   "feature_4_1": {
     "zh": "不用修改原有共识即可扩展",
-    "us": "Achieve Scalability without changing the consensus protocol"
+    "us": "Achieve scalability without changing the consensus protocol"
   },
   "feature_5": {
     "zh": "去中心化",
@@ -101,7 +101,7 @@
   },
   "title_2_6": {
     "zh": "Non-Fungible Tokens:不可互换的Token, 英文简写为\"NFT\"，简单理解为每个Token都是独一无二的。也就是说ERC721的每个Token都拥有独立唯一的tokenId编号。",
-    "us": "Non-Fungible Tokens (NFT) is the term given to the unique nature of the tokens. That is to say, each ERC721 token has an unique and independent token ID."
+    "us": "Non-Fungible Tokens (NFT) is the term given to the unique nature of the tokens. Each ERC721 token has an unique and independent token ID."
   },
   "title_2_7": {
     "zh": "智能合约",
