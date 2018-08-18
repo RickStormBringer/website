@@ -1,13 +1,13 @@
 .menu-horizontal li a{
     text-transform: capitalize !important;
 }
-.choose-language{
+.choose-language,.choose-download{
     position: relative;
 }
-.choose-language a{
+.choose-language a,.choose-download a{
     text-transform: capitalize
 }
-.choose-language a::after{
+.choose-language a::after,.choose-download>a::after{
     display: inline-block;
     width: 0;
     height: 0;
@@ -19,7 +19,7 @@
     border-bottom: 0;
     border-left: .3em solid transparent;
 }
-.language-options{
+.language-options,.download-options{
     position: absolute;
     font-size: 14px;
     /*background-color: white;*/
@@ -30,17 +30,18 @@
     background-color: #fff;
     box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
 }
-.language-options ul li{
+.language-options ul li,.download-options ul li{
     cursor: pointer;
     width: 100%;
     padding: 3px;
     white-space: nowrap;
     text-align: center;
 }
-.language-options ul li:hover{
+.language-options ul li:hover,.download-options ul li:hover{
     background-color: #252525;
     color: snow;
 }
-.language-options ul li span{
-
+.download-options .link-option>a{
+    font-size: 14px;
+    color: #666;
 }
