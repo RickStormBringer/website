@@ -1,6 +1,6 @@
 // get source data
 var getData = function (language, text) {
-    $.get('language.json', function (data) {
+    $.get('language_v1.json', function (data) {
         if (window.localStorage) {
             var storage = window.localStorage
             storage.language = language  //storage language
