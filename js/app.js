@@ -13,9 +13,24 @@ var getData = function (language, text) {
             }
         })
     })
-}
+};
+
+var scrollToCon = function (ele) {
+    $('#' + ele).get(0).scrollIntoView({behavior: "smooth", block: "start"})
+};
 
 $(document).ready(function () {
+
+    // scroll to about
+    $('#link-about').click(function () {
+        scrollToCon('about')
+    });
+
+    // scroll to about
+    $('#link-futures').click(function () {
+        scrollToCon('futures')
+    });
+
     // judge last choices
     if (window.localStorage) {
         var storage = window.localStorage
