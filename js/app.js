@@ -66,4 +66,9 @@ $(document).ready(function () {
         language == 'zh' ? $('#news_actions').attr("href", "https://www.jianshu.com/c/c130aec4a7d1") : $('#news_actions').attr("href", "https://medium.com/@wormholecash") //切换新闻地址
         getData(language, text)
     })
+
+    // toogle moblie nav
+    $('#toogle-nav').click(function () {
+        $('#moblie-navbar').toggleClass('moblie-nav-box')
+    })
 })

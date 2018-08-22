@@ -1,4 +1,8 @@
 /*! Place your custom styles here */
+body {
+    background-color: #FAFAFA;
+    font-size: 20px;
+}
 .benefits .row .col-sm-4 {
   margin-bottom: 40px;
 }
@@ -143,7 +147,6 @@ p.question {
 .nav-box .menu-box ul>li>a {
   color: #fff;
 }
-body {
-  background-color: #FAFAFA;
-  font-size: 20px;
+.moblie-nav-box {
+    display: none;
 }
