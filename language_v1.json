@@ -15,6 +15,18 @@
     "zh": "Blog",
     "us": "Blog"
   },
+  "menu_downloads": {
+    "zh": "下载",
+    "us": " Download "
+  },
+  "menu_Binaries": {
+    "zh": "二进制",
+    "us": "Binaries"
+  },
+  "menu_Source_code": {
+    "zh": "源码",
+    "us": "Source Code"
+  },
   "lead": {
     "zh": "一种基于Bitcoin Cash的智能合约实现方案",
     "us": "Wormhole — BCH smart contract"

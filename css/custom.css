@@ -41,6 +41,7 @@ p.release {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
+  opacity: 0.9;
 }
 
 @media only screen and (max-device-width: 1024px) {
@@ -131,4 +132,18 @@ p.question {
   align-items: center;
   justify-content: center;
   margin-bottom: 1.5em;
+}
+.nav-box {
+  position: absolute;
+  left: 50%;
+  margin-left: -585px;
+  z-index: 99;
+}
+
+.nav-box .menu-box ul>li>a {
+  color: #fff;
+}
+body {
+  background-color: #FAFAFA;
+  font-size: 20px;
 }
