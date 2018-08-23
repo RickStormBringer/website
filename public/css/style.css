@@ -45,3 +45,22 @@
     font-size: 14px;
     color: #666666!important;
 }
+#header_error_row h1{
+    font-size: 50px;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+
+#header_error_row h2{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+}
+#header_error_row btn_primary{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
