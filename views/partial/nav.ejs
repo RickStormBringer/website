@@ -1,0 +1,162 @@
+<div class="bar bar--sm visible-xs">
+    <div class="moblie-logo-row">
+        <div class="moblie-logo-box">
+            <i class="icon icon--sm stack-interface stack-menu" id="toogle-nav"></i>
+        </div>
+        <div>
+            <img class="logo logo-dark" alt="logo" src="images/logo-dark.png" />
+        </div>
+    </div>
+</div>
+
+<!--moblie nav-->
+<div class="moblie-nav-box visible-xs" id="moblie-navbar">
+    <nav id="menu-moblie" class="bar bar--sm bar-1  hiddem-sm" style="min-height: 120px;">
+        <div class="container">
+            <div class="row">
+                <div class="menu-box">
+                    <div class="bar__module">
+                        <ul class="menu-horizontal text-left">
+                            <li>
+                                <a href="javacript:void(0);" class="inner-link link-about" data-item="menu_about">
+                                    <%= __('menu').about %>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javacript:void(0);" class="inner-link link-futures" data-item="menu_future">
+                                    <%= __('menu').future %>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="whcwhitepaper.pdf" target="_blank" class="inner-link" data-item="menu_white_book">
+                                    <%= __('menu').white_paper %>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.jianshu.com/c/c130aec4a7d1" target="_blank" class="inner-link" data-item="menu_news" id="news_actions">
+                                    <%= __('menu').blog %>
+                                </a>
+                            </li>
+                            <li class="choose-download">
+                                <a href="javacript:void(0);" class="inner-link" data-item="menu_downloads">
+                                    <%= __('menu').download %>
+                                </a>
+                                <div class="download-options">
+                                    <ul>
+                                        <li class="link-option" data-lan="zh">
+                                            <a href="download" target="_blank" data-item="menu_Binaries">
+                                                <%= __('menu').binaries %>
+                                            </a>
+                                        </li>
+                                        <li class="link-option" data-lan="us">
+                                            <a href="https://github.com/copernet/wormhole" target="_blank" data-item="menu_Source_code">
+                                                <%= __('menu').source_code %>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="choose-language">
+                                <a href="javacript:void(0);" class="inner-link">
+                                    <%= __('lang').name %>
+                                </a>
+                                <div class="language-options">
+                                    <ul>
+                                        <li class="js-option" data-lan="zh">
+                                            <!--<img src="https://dhs24wowpbjz4.cloudfront.net/dex_assets/chinese.png">-->
+                                            <span>简体中文</span>
+                                        </li>
+                                        <li class="js-option" data-lan="en">
+                                            <!--<img src="https://dhs24wowpbjz4.cloudfront.net/dex_assets/english.png">-->
+                                            <span>English</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<!--pc nav-->
+<div class="nav-box">
+    <nav id="menu1" class="bar bar--sm bar-1 hidden-xs hiddem-sm" style="min-height: 90px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-3 hidden-xs">
+                    <div class="bar__module">
+                        <!--<a href="/">-->
+                        <!--<img class="logo logo-dark" alt="logo" src="img/logo-dark.png" />-->
+                        <!--</a>-->
+                    </div>
+                </div>
+                <div class="menu-box col-md-8 col-sm-12 text-right text-left-xs text-left-sm">
+                    <div class="bar__module">
+                        <ul class="menu-horizontal text-left">
+                            <li>
+                                <a href="javacript:void(0);" class="inner-link link-about" data-item="menu_about">
+                                    <%= __('menu').about %>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javacript:void(0);" class="inner-link link-futures" data-item="menu_future">
+                                    <%= __('menu').future %>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="whcwhitepaper.pdf" target="_blank" class="inner-link" data-item="menu_white_book">
+                                    <%= __('menu').white_paper %>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<%= __('blog_url') %>" target="_blank" class="inner-link" data-item="menu_news" id="news_actions">
+                                    <%= __('menu').blog %>
+                                </a>
+                            </li>
+                            <li class="choose-download">
+                                <a href="javacript:void(0);" class="inner-link" data-item="menu_downloads">
+                                    <%= __('menu').download %>
+                                </a>
+                                <div class="download-options">
+                                    <ul>
+                                        <li class="link-option" data-lan="zh">
+                                            <a href="download" target="_blank" data-item="menu_Binaries">
+                                                <%= __('menu').binaries %>
+                                            </a>
+                                        </li>
+                                        <li class="link-option" data-lan="us">
+                                            <a href="https://github.com/copernet/wormhole" target="_blank" data-item="menu_Source_code">
+                                                <%= __('menu').source_code %>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="choose-language">
+                                <a href="javacript:void(0);" class="inner-link">
+                                    <%= __('lang').name %>
+                                </a>
+                                <div class="language-options">
+                                    <ul>
+                                        <li class="js-option" data-lan="zh">
+                                            <!--<img src="https://dhs24wowpbjz4.cloudfront.net/dex_assets/chinese.png">-->
+                                            <span>简体中文</span>
+                                        </li>
+                                        <li class="js-option" data-lan="en">
+                                            <!--<img src="https://dhs24wowpbjz4.cloudfront.net/dex_assets/english.png">-->
+                                            <span>English</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
