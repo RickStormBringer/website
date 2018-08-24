@@ -1,42 +1,59 @@
 var scrollToCon = function (ele) {
-    $('#' + ele).get(0).scrollIntoView({behavior: "smooth", block: "start"})
+    $('#' + ele).get(0).scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    })
 };
 
 $(document).ready(function () {
 
     // scroll to about
-    $('#link-about').click(function () {
+    $('.link-about').click(function () {
         scrollToCon('about')
     });
 
-    // scroll to about
-    $('#link-futures').click(function () {
+    // scroll to futures
+    $('.link-futures').click(function () {
         scrollToCon('futures')
     });
 
 
     //toogle languages
-    $('#chooseLanguage').click(function () {
-        $('#languageOptions').show()
+    $('.choose-language').click(function () {
+        $('.language-options').show()
     }).mouseleave(function () {
-        $('#languageOptions').hide()
+        $('.language-options').hide()
     })
 
     //toogle downloads
-    $('#chooseDownload').click(function () {
-        $('#downloadOptions').show()
+    $('.choose-download').click(function () {
+        $('.download-options').show()
     }).mouseleave(function () {
-        $('#downloadOptions').hide()
+        $('.download-options').hide()
     })
 
     // choose languages
     $('.js-option').click(function (e) {
         var text = $(this).text()
         e.stopPropagation() //stop propagation
-        $('#chooseLanguage a').text(text)
-        $('#languageOptions').hide()
+        $('.choose-language a').text(text)
+        $('.language-options').hide()
         var language = $(this).data('lan')
-        window.location.href='/'+language;
-        Cookies.set('whc_lang',language)
+        window.location.href = '/' + language;
+        Cookies.set('whc_lang', language)
+    })
+
+    // toogle moblie nav
+    $('#toogle-nav').click(function () {
+        $('#moblie-navbar').toggleClass('moblie-nav-box')
+        if ($('#moblie-navbar').hasClass('moblie-nav-box')) {
+            $('#moblie-navbar').animate({
+                left: '-200px'
+            }, "normal")
+        } else {
+            $('#moblie-navbar').animate({
+                left: '0px'
+            }, "normal")
+        }
     })
 })
