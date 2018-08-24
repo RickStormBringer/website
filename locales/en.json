@@ -1,0 +1,46 @@
+{
+    "lang": {
+        "name": "English"
+    },
+    "menu": {
+        "about": "About",
+        "future": "Future",
+        "white_paper": "White Paper",
+        "blog": "Blog",
+        "download": "Download",
+        "binaries": "Binaries",
+        "source_code": "Source Code",
+        "language": "English"
+    },
+    "blog_url": "https://medium.com/@wormholecash",
+    "lead": "Wormhole — BCH smart contract",
+    "feature": {
+        "high_speed": "High-speed",
+        "high_speed_desc": "Faster confirmation",
+        "smart_contract": "Smart contract",
+        "smart_contract_desc": "Supported by high-performance turing-complete programing language",
+        "low_fees": "Low fees",
+        "low_fees_desc": "Global frictionless market",
+        "scalability": "Scalability",
+        "scalability_desc": "Achieve scalability without changing the consensus protocol",
+        "decentralization": "Decentralization",
+        "decentralization_desc": "Decentralization on BCH",
+        "security": "Security",
+        "security_desc": "Two-tier security approach"
+    },
+    "title": {
+        "wormhole_protocol": "Wormhole protocol —— BCH smart contract",
+        "wormhole_protocol_desc": "We have been trying to explore different ways to implement smart contracts on Bitcoin Cash without changing the consensus rules. After tremendous research effort, we have discovered a protocol which can issue tokens through the OP_RETURN opcode: the Omni Layer (https://www.omnilayer.org/). Based on the Omni Layer protocol,  Wormhole Cash makes it possible to issue tokens on BCH.",
+        "future_development": "Future Development",
+        "subTitle": {
+            "permissionless_smart_contract": "Permissionless smart contract",
+            "permissionless_smart_contract_desc": "The Omni Layer is not a mechanism for permissionless innovation. Only through integration into the program code can new contracts be recognized. We will create a permissionless smart contract platform in the Exophere phase. That is to say, any developer can deploy a smart contract in the network while they comply with corresponding rules for maintaining protocol security.",
+            "decentralized_exchange_protocol": "Decentralized exchange protocol",
+            "decentralized_exchange_protocol_desc": "Anyone can create their own decentralized exchange supported on protocol.",
+            "erc721": "ERC721",
+            "erc721_desc": "Non-Fungible Tokens (NFT) is the term given to the unique nature of the tokens. Each ERC721 token has an unique and independent token ID.",
+            "smart_contract": "A new generation of smart contract virtual machine",
+            "smart_contract_desc": "As a contract-oriented language that can be applied to a variety of different blockchain platforms, Solidity has borne scrutiny from computer experts in recent years. More new ideas are generated these years. We will develop new virtual machines using programming languages to allow the most efficient and developers-friendly computer languages available for building DApps."
+        }
+    }
+}
