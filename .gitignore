@@ -74,3 +74,6 @@ typings/
 # Mac os 
 .DS_Store
 .idea
+
+# dist
+dist/
