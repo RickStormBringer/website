@@ -10,13 +10,12 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var app = express();
 // view engine setup
-console.log(process.env.NODE_ENV)
-if (process.env.NODE_ENV && process.env.NODE_ENV == 'production') {
-    app.set('views', path.join(__dirname, 'dist/views'));
-    app.use(express.static(path.join(__dirname, 'dist')));
-} else {
+if ((!process.env.NODE_ENV) || process.env.NODE_ENV == 'dev') {
     app.set('views', path.join(__dirname, 'views'));
     app.use(express.static(path.join(__dirname, 'public')));
+} else {
+    app.set('views', path.join(__dirname, 'dist/views'));
+    app.use(express.static(path.join(__dirname, 'dist')));
 
 }
 // app.set('views', path.join(__dirname, 'views'));

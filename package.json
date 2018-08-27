@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "production": " gulp & NODE_ENV=production pm2 restart ./bin/www",
-    "test": " gulp & NODE_ENV=test PORT=4000 pm2 restart ./bin/www",
+    "production": " gulp && NODE_ENV=production pm2 restart ./bin/www",
+    "test": " gulp && NODE_ENV=test PORT=4000 pm2 restart ./bin/www",
     "dev": " NODE_ENV=dev node ./bin/www",
     "build": "gulp"
   },
