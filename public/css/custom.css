@@ -489,3 +489,6 @@ p.question {
   color: #AAB0BB;
   margin-top: 90px;
 }
+.foot_outer{
+  padding-bottom: 0!important;
+}
