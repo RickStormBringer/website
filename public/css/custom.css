@@ -206,6 +206,7 @@ p.question {
 
 #menu-moblie>.container>.row>.menu-box a {
   color: #fff;
+  opacity: 1;
 }
 
 .moblie-logo-row {
@@ -424,9 +425,8 @@ p.question {
   line-height: 34px;
   padding: 0 40px 0;
 }
+
 .future_content_box>div{
-  width: 591px;
-  flex: 1;
   /*background-image: url(../images/future_bg.png);*/
   /*background-size: 100%;*/
   position: relative;
@@ -435,10 +435,6 @@ p.question {
   background: #FFFFFF;
   box-shadow: 0 4px 9px 5px rgba(231,231,231,0.50);
   border-radius: 8px;
-}
-.future_content_box>div:nth-child(1){
-  margin-right: 33px;
-  padding-bottom: 30px;
 }
 .future_content_box.second_row>div{
   margin-top: 105px;
@@ -459,6 +455,8 @@ p.question {
   flex-direction: column;
   align-items: center;
   padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .footer_box img{
@@ -475,6 +473,7 @@ p.question {
 }
 .footer_box .foot_content i{
   color: #ffffff;
+  margin-right: 15px;
 }
 .footer_box .foot_content a{
   font-size: 24px;
@@ -491,4 +490,73 @@ p.question {
 }
 .foot_outer{
   padding-bottom: 0!important;
+}
+.moblie_future_tittle {
+  width: inherit!important;
+}
+.future_content_box>div:nth-child(1){
+  padding-bottom: 30px;
+}
+header_content .right_content .lead{
+  font-size: 36px;
+}
+.moblie-logo-box{
+  text-align: left;
+}
+.moblie-logo-box i{
+  color: rgb(3,13,58);
+}
+#moblie-navbar {
+  background: rgb(3,13,58);
+  border-radius: 8px;
+}
+#moblie-navbar .language-options,#moblie-navbar .download-options{
+  background-color: transparent!important;
+}
+#moblie-navbar .language-options ul li span,#moblie-navbar .download-options .link-option>a{
+  color:#fff!important;
+  opacity: 0.45!important;
+}
+/*lagre screen*/
+@media (min-width: 1200px) {
+  .future_content_box>div{
+    width: 591px;
+  }
+  .future_content_box>div:nth-child(1){
+    margin-right: 33px;
+  }
+}
+@media (max-width: 1199px) {
+  .future_content_box>div{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .future_content_box>div:nth-child(2){
+    margin-top: 105px;
+  }
+  .header_content .right_hedader{
+    font-size:55px;
+  }
+  .header_content .right_content .lead{
+    font-size: 30px;
+  }
+  .top_blunk{
+    display: none;
+  }
+  .midlle_blunk{
+    display: none;
+  }
+  .about_box{
+    margin-top: -140px;
+    height: inherit;
+    margin-bottom: 30px;
+  }
+  .footer_box .foot_content{
+    flex-direction: column;
+    margin-top: 68px;
+  }
+  .footer_box .foot_content a:nth-child(3){
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }

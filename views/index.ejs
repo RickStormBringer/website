@@ -131,16 +131,16 @@
         <div class="container">
             <div class="row text-center">
                 <div class='col-sm-12 future_tittle_box'>
-                    <!--<div class="hidden-xs hidden-sm">-->
-                        <!--FUTURE DEVELOPMENT-->
-                    <!--</div>-->
-                    <div data-item="title_2" class="future_tittle">
+                    <div data-item="title_2" class="moblie_future_tittle visible-xs future_tittle">
+                        <%= __('title').future_development %>
+                    </div>
+                    <div data-item="title_2" class="future_tittle hidden-xs hidden-small">
                         <%= __('title').future_development %>
                     </div>
                 </div>
             </div>
             <div class="row future_content_box first_row">
-                <div>
+                <div class="col-md-12 col-sm-12">
                     <img src="images/smart_contract.png" class="circle" alt="logo">
                     <h3>
                         <%= __('title').subTitle.permissionless_smart_contract %>
@@ -149,7 +149,7 @@
                         <%= __('title').subTitle.permissionless_smart_contract_desc %>
                     </p>
                 </div>
-                <div>
+                <div class="col-md-12 col-sm-12">
                     <h3>
                         <%= __('title').subTitle.decentralized_exchange_protocol %>
                     </h3>
@@ -160,7 +160,7 @@
                 </div>
             </div>
             <div class="row future_content_box second_row">
-                <div>
+                <div class="col-md-12 col-sm-12">
                     <h3>
                         <%= __('title').subTitle.erc721 %>
                     </h3>
@@ -169,7 +169,7 @@
                     </p>
                     <img src="images/ERC721.png" class="circle" alt="logo">
                 </div>
-                <div>
+                <div class="col-md-12 col-sm-12">
                     <h3>
                         <%= __('title').subTitle.smart_contract %>
                     </h3>
