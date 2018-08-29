@@ -30,7 +30,7 @@
     },
     "title": {
         "wormhole_protocol": "Wormhole protocol —— BCH smart contract",
-        "wormhole_protocol_desc": "We have been trying to explore different ways to implement smart contracts on Bitcoin Cash without changing the consensus rules. After tremendous research effort, we have discovered a protocol which can issue tokens through the OP_RETURN opcode: the Omni Layer (https://www.omnilayer.org/). Based on the Omni Layer protocol,  Wormhole Cash makes it possible to issue tokens on BCH.",
+        "wormhole_protocol_desc": "We have been trying to explore different ways to implement smart contracts on Bitcoin Cash without changing the consensus rules. After tremendous research effort, we have discovered a protocol which can issue tokens through the OP_RETURN opcode: the Omni Layer (<a href='https://www.omnilayer.org/' target='_blank'>https://www.omnilayer.org/</a>). Based on the Omni Layer protocol,  Wormhole Cash makes it possible to issue tokens on BCH.",
         "future_development": "Future Development",
         "subTitle": {
             "permissionless_smart_contract": "Permissionless smart contract",

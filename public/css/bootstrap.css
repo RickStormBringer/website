@@ -1728,6 +1728,12 @@ pre code {
   }
 }
 
+@media (min-width: 1220px) {
+  .container {
+    width: 1216px;
+  }
+}
+
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
