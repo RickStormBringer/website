@@ -26,6 +26,7 @@ gulp.task('dev', function (done) {
         ['revIcons'],
         ['revHead'],
         ['revBody'],
+        ['revAutoHtml'],
         done);
 });
 
@@ -34,10 +35,16 @@ var cssSrc = ['./public/css/*.css', './public/css/*.css'],
     jsSrc = ['./public/js/*.js', './public/js/app.js'],
     headSrc = './views/partial/*.ejs',
     bodySrc = './views/*.ejs',
+    autoHtmlSrc = './public/autoIndex.html',
     imgSrc = './public/images/*',
     iconsSrc = './public/icons/*',
     fontsSrc = './public/fonts/*';
 
+// revAutoHtml
+gulp.task('revAutoHtml', function () {
+    return gulp.src(autoHtmlSrc)
+        .pipe(gulp.dest('./dist'));
+});
 // css build
 gulp.task('revCss', function () {
     return gulp.src(cssSrc)
