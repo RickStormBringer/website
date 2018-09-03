@@ -30,7 +30,7 @@
 	},
 	"title": {
 		"wormhole_protocol": "基于Bitcoin Cash的智能合约实现方案",
-		"wormhole_protocol_desc": "我们一直在探索一种不改变共识的情况实现在BCH上实现智能合约的方案，我们关注到了[OmniLayer](https://www.omnilayer.org/)方案，它是一种利用op_return操作码实现发token的方案。Wormhole Cash 是基于OmniLayer协议在BCH上实现发Token功能的一种解决方案。",
+		"wormhole_protocol_desc": "我们一直在探索一种不改变共识的情况实现在BCH上实现智能合约的方案，我们关注到了[OmniLayer](<a href='https://www.omnilayer.org/' target='_blank'>https://www.omnilayer.org/</a>)方案，它是一种利用op_return操作码实现发token的方案。Wormhole Cash 是基于OmniLayer协议在BCH上实现发Token功能的一种解决方案。",
 		"future_development": "未来发展",
 		"subTitle": {
 			"permissionless_smart_contract": "无许可的智能合约",

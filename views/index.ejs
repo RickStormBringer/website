@@ -2,173 +2,192 @@
 <html lang="en">
 <%- include('partial/head'); -%>
 
-    <body class=" ">
-        <a id="start"></a>
-        <%- include('partial/header'); -%>
-            <div class="main-container">
-                <br>
-                <section class="space--xxs no-bottom icon-container">
-                    <div class="container benefits">
-                        <div class="row text-center">
-                            <div class="col-sm-4 col-md-4">
-                                <p>
-                                    <i class="fa fa-bolt fa-fw fa-2x"></i>
-                                </p>
-                                <p>
-                                    <strong data-item="feature_1">
-                                        <%= __('feature').high_speed %>
-                                    </strong>
-                                </p>
-                                <p data-item="feature_1_1">
-                                    <%= __('feature').high_speed_desc %>
-                                </p>
-                            </div>
-                            <div class="col-sm-4 col-md-4">
-                                <p>
-                                    <i class="fa fa-tasks fa-fw fa-2x"></i>
-                                </p>
-                                <p>
-                                    <strong data-item="feature_2">
-                                        <%= __('feature').smart_contract %>
-                                    </strong>
-                                </p>
-                                <p data-item="feature_2_1">
-                                    <%= __('feature').smart_contract_desc %>
-                                </p>
-                            </div>
-                            <div class="col-sm-4 col-md-4">
-                                <p>
-                                    <i class="fa fa-arrow-down fa-fw fa-2x"></i>
-                                </p>
-                                <p>
-                                    <strong data-item="feature_3">
-                                        <%= __('feature').low_fees %>
-                                    </strong>
-                                </p>
-                                <p data-item="feature_3_1">
-                                    <%= __('feature').low_fees_desc %>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row text-center">
-                            <div class="col-sm-4 col-md-4">
-                                <p>
-                                    <i class="fa fa-rss fa-fw fa-2x"></i>
-                                </p>
-                                <p>
-                                    <strong data-item="feature_4">
-                                        <%= __('feature').scalability %>
-                                    </strong>
-                                </p>
-                                <p data-item="feature_4_1">
-                                    <%= __('feature').scalability_desc %>
-                                </p>
-                            </div>
-                            <div class="col-sm-4 col-md-4">
-                                <p>
-                                    <i class="fa fa-cubes fa-fw fa-2x"></i>
-                                </p>
-                                <p>
-                                    <strong data-item="feature_5">
-                                        <%= __('feature').decentralization %>
-                                    </strong>
-                                </p>
-                                <p data-item="feature_5_1">
-                                    <%= __('feature').decentralization_desc %>
-                                </p>
-                            </div>
-                            <div class="col-sm-4 col-md-4">
-                                <p>
-                                    <i class="fa fa-lock fa-fw fa-2x"></i>
-                                </p>
-                                <p>
-                                    <strong data-item="feature_6">
-                                        <%= __('feature').security %>
-                                    </strong>
-                                </p>
-                                <p data-item="feature_6_1">
-                                    <%= __('feature').security_desc %>
-                                </p>
-                            </div>
-                        </div>
+<body class=" ">
+<a id="start"></a>
+<%- include('partial/header'); -%>
+<div class="main-container">
+    <br>
+    <div class="top_blunk"></div>
+    <section class="space--xxs  icon-container">
+        <div class="container benefits">
+            <div class="row text-center icon_content first_row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="left_icon">
                     </div>
-                </section>
-                <div id="about"></div>
-                <section class="space--xxs">
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class='col-sm-12'>
-                                <h3 class="banner" data-item="title_1">
-                                    <%= __('title').wormhole_protocol %>
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12">
-                                <p data-item="title_1_1">
-                                    <%= __('title').wormhole_protocol_desc %>
-                                </p>
+                    <div class="right_content">
+                        <p>
+                            <strong data-item="feature_1">
+                                <%= __('feature').high_speed %>
+                            </strong>
+                        </p>
+                        <p data-item="feature_1_1">
+                            <%= __('feature').high_speed_desc %>
+                        </p>
+                    </div>
 
-                            </div>
-                        </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="left_icon">
                     </div>
-                </section>
-                <div id="futures"></div>
-                <section class="space--xxs">
-                    <div class="container">
-                        <div class="row text-center">
-                            <div class='col-sm-12'>
-                                <h3 data-item="title_2">
-                                    <%= __('title').future_development %>
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12 col-md-12">
-                                <p>
-                                    <strong data-item="title_2_1">
-                                        <%= __('title').subTitle.permissionless_smart_contract %>
-                                    </strong>
-                                    <span data-item="title_2_2">
-                                        <%= __('title').subTitle.permissionless_smart_contract_desc %>
-                                    </span>
-                                </p>
-                                <p>
-                                    <strong data-item="title_2_3">
-                                        <%= __('title').subTitle.decentralized_exchange_protocol %>
-                                    </strong>
-                                    <span data-item="title_2_4">
-                                        <%= __('title').subTitle.decentralized_exchange_protocol_desc %>
-                                    </span>
-                                </p>
-                                <p>
-                                    <strong data-item="title_2_5">
-                                        <%= __('title').subTitle.erc721 %>
-                                    </strong>
-                                    <span data-item="title_2_6">
-                                        <%= __('title').subTitle.erc721_desc %>
-                                    </span>
-                                </p>
-                                <p>
-                                    <strong data-item="title_2_7">
-                                        <%= __('title').subTitle.smart_contract %>
-                                    </strong>
-                                    <span data-item="title_2_8">
-                                        <%= __('title').subTitle.smart_contract_desc %>
-                                    </span>
-                                </p>
-
-                            </div>
-                        </div>
+                    <div class="right_content">
+                        <p>
+                            <strong data-item="feature_2">
+                                <%= __('feature').smart_contract %>
+                            </strong>
+                        </p>
+                        <p data-item="feature_2_1">
+                            <%= __('feature').smart_contract_desc %>
+                        </p>
                     </div>
-                </section>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="left_icon">
+                    </div>
+                    <div class="right_content">
+                        <p>
+                            <strong data-item="feature_3">
+                                <%= __('feature').low_fees %>
+                            </strong>
+                        </p>
+                        <p data-item="feature_3_1">
+                            <%= __('feature').low_fees_desc %>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <%- include('partial/footer'); -%>
-                <script src="js/jquery-3.1.1.min.js"></script>
-                <script src="js/js.cookie.js"></script>
-                <script src="js/smooth-scroll.min.js"></script>
-                <script src="js/fontawesome.js"></script>
-                <script src="js/app.js?v=0820"></script>
-    </body>
+            <div class="midlle_blunk"></div>
+            <div class="row text-center icon_content second_row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="left_icon">
+                    </div>
+                    <div class="right_content">
+                        <p>
+                            <strong data-item="feature_4">
+                                <%= __('feature').scalability %>
+                            </strong>
+                        </p>
+                        <p data-item="feature_4_1">
+                            <%= __('feature').scalability_desc %>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="left_icon">
+                    </div>
+                    <div class="right_content">
+                        <p>
+                            <strong data-item="feature_5">
+                                <%= __('feature').decentralization %>
+                            </strong>
+                        </p>
+                        <p data-item="feature_5_1">
+                            <%= __('feature').decentralization_desc %>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-4">
+                    <div class="left_icon">
+                    </div>
+                    <div class="right_content">
+                        <p>
+                            <strong data-item="feature_6">
+                                <%= __('feature').security %>
+                            </strong>
+                        </p>
+                        <p data-item="feature_6_1">
+                            <%= __('feature').security_desc %>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="about"></div>
+    <section class="space--xxs about_box">
+        <div class="container about_container">
+            <div class="left_about">
+                <div class="banner_back"></div>
+                <div>
+                    <p class="banner" data-item="title_1">
+                        <%= __('title').wormhole_protocol %>
+                    </p>
+                </div>
+                <div class="left_blunk"></div>
+                <div>
+                    <p class="left_con" data-item="title_1_1">
+                        <%- __('title').wormhole_protocol_desc %>
+                    </p>
+                </div>
+            </div>
+            <div class="right_about hidden-xs hidden-sm">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <div id="futures"></div>
+    <section class="space--xxs future_box">
+        <div class="container">
+            <div class="row text-center">
+                <div class='col-sm-12 future_tittle_box'>
+                    <div data-item="title_2" class="moblie_future_tittle visible-xs future_tittle">
+                        <%= __('title').future_development %>
+                    </div>
+                    <div data-item="title_2" class="future_tittle hidden-xs hidden-small">
+                        <%= __('title').future_development %>
+                    </div>
+                </div>
+            </div>
+            <div class="row future_content_box first_row">
+                <div class="col-md-12 col-sm-12">
+                    <img src="images/smart_contract.png" class="circle" alt="logo">
+                    <h3>
+                        <%= __('title').subTitle.permissionless_smart_contract %>
+                    </h3>
+                    <p>
+                        <%= __('title').subTitle.permissionless_smart_contract_desc %>
+                    </p>
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <h3>
+                        <%= __('title').subTitle.decentralized_exchange_protocol %>
+                    </h3>
+                    <p>
+                        <%= __('title').subTitle.decentralized_exchange_protocol_desc %>
+                    </p>
+                    <img src="images/protocol.png" class="circle" alt="logo">
+                </div>
+            </div>
+            <div class="row future_content_box second_row">
+                <div class="col-md-12 col-sm-12">
+                    <h3>
+                        <%= __('title').subTitle.erc721 %>
+                    </h3>
+                    <p>
+                        <%= __('title').subTitle.erc721_desc %>
+                    </p>
+                    <img src="images/ERC721.png" class="circle" alt="logo">
+                </div>
+                <div class="col-md-12 col-sm-12">
+                    <h3>
+                        <%= __('title').subTitle.smart_contract %>
+                    </h3>
+                    <p>
+                        <%= __('title').subTitle.smart_contract_desc %>
+                    </p>
+                    <img src="images/smart_contract2.png" class="circle" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<%- include('partial/footer'); -%>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/js.cookie.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/fontawesome.js"></script>
+<script src="js/app.js?v=0820"></script>
+</body>
 
 </html>
