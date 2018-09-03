@@ -23,6 +23,7 @@ gulp.task('dev', function (done) {
         ['revJs'],
         ['revFonts'],
         ['revImg'],
+        ['revIcons'],
         ['revHead'],
         ['revBody'],
         done);
@@ -34,6 +35,7 @@ var cssSrc = ['./public/css/*.css', './public/css/*.css'],
     headSrc = './views/partial/*.ejs',
     bodySrc = './views/*.ejs',
     imgSrc = './public/images/*',
+    iconsSrc = './public/icons/*',
     fontsSrc = './public/fonts/*';
 
 // css build
@@ -68,6 +70,12 @@ gulp.task('revImg', function () {
     return gulp.src(imgSrc)
         .pipe(imagemin())
         .pipe(gulp.dest('./dist/images'));
+});
+// revIcons
+gulp.task('revIcons', function () {
+    return gulp.src(iconsSrc)
+        .pipe(imagemin())
+        .pipe(gulp.dest('./dist/icons'));
 });
 
 // replace path
