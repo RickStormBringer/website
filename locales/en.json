@@ -2,6 +2,7 @@
     "lang": {
         "name": "English"
     },
+    "brand_title":"Wormhole",
     "menu": {
         "about": "About",
         "future": "Future",
@@ -43,5 +44,12 @@
             "smart_contract": "A new generation of smart contract virtual machine",
             "smart_contract_desc": "As a contract-oriented language that can be applied to a variety of different blockchain platforms, Solidity has borne scrutiny from computer experts in recent years. More new ideas are generated these years. We will develop new virtual machines using programming languages to allow the most efficient and developers-friendly computer languages available for building DApps."
         }
-    }
+    },
+    "documentation":"Documentation",
+    "tool_box":"Tool Box",
+    "wormhole_sdk":"Wormhole SDK",
+    "website":"Website",
+    "wallets":"Wallets",
+    "exchanges":"Exchanges",
+    "contactUs":"Contact Us"
 }

@@ -2,11 +2,12 @@
 	"lang": {
 		"name": "简体中文"
 	},
+	"brand_title":"虫洞",
 	"menu": {
 		"about": "关于",
 		"future": "未来",
 		"white_paper": "白皮书",
-		"blog": "Blog",
+		"blog": "博客",
 		"download": "下载",
 		"binaries": "二进制",
 		"source_code": "源码",
@@ -44,5 +45,12 @@
 			"smart_contract_desc": "新一代的智能合约虚拟机。Solidity作为智能合约这一古老概念被真正实现的语言，受到了计算机专家的广泛审视。近些年也有更好的想法被提出来。我们将考虑开发一些新型编程语言的虚拟机，让最有效率、开发者基础最广泛的计算机语言被用于构建DApps。"
 		}
 	},
-	"menu.about": "menu.about"
+	"menu.about": "menu.about",
+	"documentation":"项目文档",
+	"tool_box":"工具集",
+	"wormhole_sdk":"虫洞SDK",
+	"website":"官网",
+	"wallets":"钱包",
+	"exchanges":"交易所",
+	"contactUs":"联系我们"
 }
