@@ -56,4 +56,18 @@ $(document).ready(function () {
             }, "normal")
         }
     })
+    var icon_wechat = document.getElementById('icon_wechat');
+    icon_wechat.onmouseover = function() {
+        document.getElementById('popup').style.display = 'block';
+    }
+    icon_wechat.onmouseout = function() {
+        document.getElementById('popup').style.display = 'none';
+    }
+    var icon_k = document.getElementById('icon_k');
+    icon_k.onmouseover = function() {
+        document.getElementById('popup_k').style.display = 'block';
+    }
+    icon_k.onmouseout = function() {
+        document.getElementById('popup_k').style.display = 'none';
+    }
 })
