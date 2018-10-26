@@ -821,7 +821,7 @@ p.question {
   color: #fff;
 }
 .social-body-item .row-container.first{
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .social-body-item .row-container .item-container{
   display: flex;
@@ -1100,6 +1100,9 @@ p.question {
   }
   .footer-container .line{
     margin-bottom: -60px;
+  }
+  .social-body-item .row-container.first{
+    margin-top: 20px;
   }
 }
 
