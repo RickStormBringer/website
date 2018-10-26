@@ -62,7 +62,7 @@ p.release {
 .section-container{
   background: url(../images/bg1.png);
   height: 1825px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat!important;
   padding-top: 50px;
 }
@@ -393,7 +393,7 @@ p.question {
 }
 /*future development*/
 .future_box {
-  margin-top: -500px;
+  margin-top: -450px;
   margin-bottom: 80px;
 }
 .tool_box{
@@ -418,7 +418,7 @@ p.question {
   background-repeat: no-repeat;
   height: 120px;
   background-position-y: 39%;
-  padding-top: 40px;
+  line-height: 1.2
 }
 .tool_box .title{
   font-size: 48px;
@@ -580,6 +580,14 @@ p.question {
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  width: 100%;
+}
+.footer_box .item-container{
+  display: flex;
+  align-items: center;
+}
+.footer_box .item-container .icon-item{
+  margin-right: 15px;
 }
 .footer_box .foot_content i{
   color: #ffffff;
@@ -588,10 +596,10 @@ p.question {
 .footer_box .foot_content a{
   font-size: 24px;
   color: #AAB0BB!important;
+  flex: 1;
+  margin-left: 75px;
 }
-.footer_box .foot_content a:nth-child(2){
-  margin: 0 120px 0;
-}
+
 .footer_box .foot_footer {
   font-size: 20px;
   margin-top: 90px;
@@ -603,6 +611,13 @@ p.question {
 .foot_outer{
   padding-bottom: 0!important;
   padding-top: 0!important;
+  background-image: linear-gradient(0deg, #0A1235 0%, #1A2A5C 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .moblie_future_tittle {
   width: inherit!important;
@@ -697,6 +712,10 @@ p.question {
   padding-top: 75px;
   background-repeat: no-repeat;
 }
+.wallet-container-inner .container{
+  padding-left: 0;
+  padding-right: 0;
+}
 .wallet-container-inner .title-container .title{
   font-size: 48px;
   text-align: center;
@@ -733,7 +752,7 @@ p.question {
 }
 .wallet-container-inner .wallet-logo-container.exchange{
   width: 100%;
-  margin-top: 80px;
+  margin-top: 40px;
   padding: 0 100px;
 }
 .wallet-logo-container .item-container{
@@ -751,7 +770,10 @@ p.question {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 80px;
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 .logo-coco{
   width: 239px;
@@ -773,6 +795,7 @@ p.question {
 }
 .logo-coinex{
   width: 260px;
+  border-radius: 20px;
 }
 .logo-exnow{
   width: 210px;
@@ -966,8 +989,9 @@ p.question {
     margin-bottom: 30px;
   }
   .footer_box .foot_content{
-    flex-direction: column;
-    margin-top: 68px;
+    /* flex-direction: column;
+    margin-top: 68px; */
+    width: 100%;
   }
   .footer_box .foot_content a:nth-child(3){
     margin-top: 20px;
@@ -992,7 +1016,7 @@ p.question {
     justify-content: center;
     height: 50px;
     border-radius: 4px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     color: #fff;
     text-align: center;
@@ -1015,6 +1039,7 @@ p.question {
   }
   .future_box{
     margin-top: 0px;
+    padding-top: 0px!important;
   }
   .section-container{
     height: inherit;
@@ -1063,7 +1088,7 @@ p.question {
     padding-top: 25px;
   }
   .wallet-logo-container .item-container .item-body{
-    margin-right: 0px;
+    margin-right: 40px;
     margin-top: 20px;
   }
   .wallet-logo-container .item-container:last-child{
@@ -1103,6 +1128,18 @@ p.question {
   }
   .social-body-item .row-container.first{
     margin-top: 20px;
+  }
+  .footer_box .foot_content a{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .footer_box .foot_content{
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .footer_box .foot_content a:nth-child(3){
+    margin-top: 20px;
+    margin-bottom: 0px;
   }
 }
 
