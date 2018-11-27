@@ -36,7 +36,7 @@ app.get('/', function (req, res) {
     if (localeLang != 'en') {
         res.status(302).redirect(`/${req.getLocale()}`)
     } else {
-        res.render('index');
+        res.render('index_en');
     }
 });
 // app.all('/:lang',function(req,res,next){
@@ -46,12 +46,12 @@ app.get('/', function (req, res) {
 // });
 app.get('/zh', function (req, res) {
     i18n.setLocale(req, 'zh');
-    res.render('index');
+    res.render('index_zh');
 });
 
 app.get('/en', function (req, res) {
     i18n.setLocale(req, 'en');
-    res.render('index');
+    res.render('index_en');
 });
 
 // catch 404 and forward to error handler
